@@ -14,6 +14,7 @@ public class CopyUtil {
     public static void copyNullProperties(Object oldObject, Object newObject) {
         BeanUtils.copyProperties(oldObject, newObject, getNoNullProperties(newObject, null));
     }
+
     /**
      * @param target 目标源数据
      * @return 将目标源中不为空的字段取出
@@ -28,7 +29,9 @@ public class CopyUtil {
                 noEmptyName.add(p.getName());
                 continue;
             }
-            if (value != null) noEmptyName.add(p.getName());
+            if (value != null) {
+                noEmptyName.add(p.getName());
+            }
         }
         String[] result = new String[noEmptyName.size()];
         return noEmptyName.toArray(result);

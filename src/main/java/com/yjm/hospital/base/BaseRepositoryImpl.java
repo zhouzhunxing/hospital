@@ -39,6 +39,7 @@ public class BaseRepositoryImpl<T, TD extends Serializable> implements BaseRepos
         return query.getResultList();
     }
 
+    @Override
     public <T> Page<T> findAll(String sql, Map<String, Object> whereParam, Pageable pageable, T inEntity) {
         Query query = entityManager.createNativeQuery(sql);
         //转换为clzss
