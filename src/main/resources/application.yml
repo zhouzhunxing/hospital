@@ -1,0 +1,25 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1qws!QWS
+    url: jdbc:mysql://127.0.0.1:3306/yjm?characterEncoding=utf-8&useSSL=false&&serverTimezone=UTC
+  jpa:
+    show-sql: true
+  #模版配置
+  thymeleaf:
+    #避免修改模版后还要重启
+    cache: false
+    #模版路径，默认为templates（可忽略）
+    prefix: classpath:/templates/
+    #检查模版位置（可忽略）
+    check-template-location: true
+    #模版后缀，默认html（可忽略）
+    suffix: .html
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    #模版模式
+    mode: HTML
