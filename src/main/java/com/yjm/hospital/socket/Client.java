@@ -10,7 +10,7 @@ public class Client {
     //构造方法,初始化客户端
     public Client() {
         try {
-            System.out.println("正在启动客户端");
+            System.out.println("正在启动客户端ing");
             socket = new Socket("localhost", 8088);
             System.out.println("已经连接服务端");
         } catch (IOException e) {
