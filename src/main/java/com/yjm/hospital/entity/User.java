@@ -22,7 +22,7 @@ import java.util.Date;
 @Entity
 @Data
 @Table(name = "user")
-@ApiModel(value = "用户实体")
+@ApiModel(value = "用户实体1")
 public class User implements Serializable {
 
     /**
