@@ -2,7 +2,7 @@
 # 这是一个注释11111111111111111111111111111111111111111
 #下边是一个多行注释
 :<<EOF
-echo 'hello world!1'
+echo 'hello world!1'nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 echo 'hello world!2'
 echo 'hello world!3'
 EOF
