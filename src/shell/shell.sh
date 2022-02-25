@@ -3,7 +3,7 @@
 #下边是一个多行注释
 :<<EOF
 echo 'hello world!1'nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-echo 'hello world!2'
+echo 'hello world!2'eeeeeeeeeeeeee
 echo 'hello world!3'
 EOF
 #echo 'hello world!你好'
