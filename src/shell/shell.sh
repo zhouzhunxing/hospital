@@ -4,7 +4,7 @@
 :<<EOF
 echo 'hello world!1'nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 echo 'hello world!2'eeeeeeeeeeeeee
-echo 'hello world!3'
+echo 'hello world!3'wwwwwwwwwww
 EOF
 #echo 'hello world!你好'
 
